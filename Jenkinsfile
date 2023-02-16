@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh "touch hello.sh"
                 sh "echo 'Aalreet like hew' > hello.sh"
-                sh "hello.sh"
+                sh "sh hello.sh"
             }
         }
     }
